@@ -1,4 +1,7 @@
 package com.ironhack.dog_daycare.repository;
 
-public interface HealthRecordRepository {
+import com.ironhack.dog_daycare.model.HealthRecord;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface HealthRecordRepository extends JpaRepository<HealthRecord, Integer> {
 }

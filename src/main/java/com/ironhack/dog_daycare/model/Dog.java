@@ -23,6 +23,10 @@ public class Dog {
     @JoinColumn(name = "record_id")
     private HealthRecord healthRecord;
 
+    @OneToOne
+    @JoinColumn(name = "booking_id")
+    private Booking booking;
+
 
     @ManyToOne
     @JoinColumn(name = "owner_id")
