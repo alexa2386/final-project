@@ -4,7 +4,7 @@
 A RESTful API for managing dog daycare services built with Java and Spring Boot.
 
 ## Class Diagram
-![Class Diagram]()![dogdaycare](https://github.com/user-attachments/assets/c5f29238-8c39-4e4f-b1e1-3a466a715e8b)
+![dogdaycare](https://github.com/user-attachments/assets/c5f29238-8c39-4e4f-b1e1-3a466a715e8b)
 
 
 ## Setup
