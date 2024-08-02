@@ -11,14 +11,14 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class Booking {
+public class HealthRecord {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer bookingId;
-    private Integer dogId;
-    private Date startDate;
-    private Date endDate;
-    @Enumerated(EnumType.STRING)
-    Status status;
+    private Integer recordId;
+    private Integer dogID;
+    private Date date;
+    private String description;
+    private String vetName;
+
 }

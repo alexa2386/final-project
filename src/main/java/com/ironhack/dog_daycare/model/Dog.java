@@ -19,6 +19,11 @@ public class Dog {
     private Integer age;
     private Integer weight;
 
+    @OneToOne
+    @JoinColumn(name = "record_id")
+    private HealthRecord healthRecord;
+
+
     @ManyToOne
     @JoinColumn(name = "owner_id")
     private User owner;
