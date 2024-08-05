@@ -16,8 +16,8 @@ public class Dog {
     private Integer dogId;
     private String name;
     private String breed;
-    private Integer age;
-    private Integer weight;
+    private String age;
+    private String weight;
 
     @OneToOne
     @JoinColumn(name = "record_id")
